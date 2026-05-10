@@ -1,4 +1,4 @@
-name: preet snake
+name: mohsin snake
 
 permissions:
   contents: write
@@ -17,9 +17,9 @@ jobs:
     steps:
       - uses: Platane/snk@v3
         with:
-          github_user_name: preetbiswas12
+          github_user_name: YvMohsin
           outputs: |
-            dist/github-contribution-grid-snake-preetbiswas12-dark.svg?palette=github-dark&color_snake=#008cff&color_dots=#00061a,#081954,#2d3a54,#008cff,#00D9FF
+            dist/github-contribution-grid-snake-YvMohsin-dark.svg?palette=github-dark&color_snake=#008cff&color_dots=#00061a,#081954,#2d3a54,#008cff,#00D9FF
       - uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
